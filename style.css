@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.headerbackground {
+    background-color: antiquewhite;
+    height: 350px;
+}
+
+.welcomecontainer {
+    width: 100%;
+}
+.chubbylogo {
+    background-image: url(images/chubbylogo.jpg);
+    width: 16%;
+    height: 225px;
+    float: left;
+    margin-left: 100px;
+}
+
+
+.welcometext {
+    float: right;
+    margin-right: 405px;
+    font-weight: bold;
+    font-size: 150px;
+    transform: skewX(-15deg);
+    transform: skewY(-9deg);
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+.nav > a {
+    padding: 10px 30px 10px 30px;
+    background-color: saddlebrown;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: azure;
+    font-family: sans-serif;
+
+}
