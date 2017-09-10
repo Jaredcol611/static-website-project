@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color: white;
 }
 
 .container {
@@ -75,23 +76,112 @@ html, body {
     border-bottom: 2px solid darkgoldenrod;
 }
 
-.main-container {
-
+/*End of heading for every page. More breaks will be made to show other pages.*/
+                            /*HOME PAGE CONTENT*/
+.trending {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px #cccccc;
 }
 
 .pictureholder1 {
     display: flex;
     width: 1000px;
-    height: 400px;
+    height: 270px;
     justify-content: space-between;
 
 }
 
-.picture {
-    height: 250px;
-    width: 250px;
-    margin-top: 35px;
+.picture1 {
+    height: 166px;
+    width: 303px;
+    margin-top: 5px;
     border: 2px solid black;
 }
 
+.picture2 {
+    height: 214px;
+    width: 236px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+.pictext {
+    text-align: center;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.sectionbar2 {
+    background-color: darkred;
+    width: 100%;
+    height: 20px;
+    border-top: 2px solid darkgoldenrod;
+    border-left: 2px solid darkgoldenrod;
+    border-right: 2px solid darkgoldenrod;
+}
+
+.visit {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.site-container3 {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.left-content {
+    width: 50%;
+    height: 300px;
+}
+
+.right-content {
+    display: flex;
+    width: 50%;
+    height: 300px;
+    border-left: 10px solid darkred;
+}
+
+.hours-head {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.store-hours {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 165px;
+}
+
+.footerarea {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sectionbar3 {
+    background-color: darkred;
+    width: 100%;
+    height: 40px;
+    border-left: 2px solid darkgoldenrod;
+    border-right: 2px solid darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod;
+}
+
+.footertext {
+    text-align: center;
+    margin: 0;
+    padding-top: 13px;
+    font-size: 10px;
+    color: antiquewhite;
+}
+
+.site-link {
+    color: antiquewhite;
+    font-style: italic;
+}
 
