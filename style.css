@@ -173,9 +173,9 @@ html, body {
 }
 
 .footertext {
-    text-align: center;
+    text-align: left;
     margin: 0;
-    padding-top: 13px;
+    padding-top: 14px;
     font-size: 10px;
     color: antiquewhite;
 }
@@ -184,4 +184,114 @@ html, body {
     color: antiquewhite;
     font-style: italic;
 }
+                                            /*MENU PAGE*/
 
+.menu-header {
+    margin-top: 15px;
+}
+
+.menu-text {
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.menu-note {
+    font-style: italic;
+    text-align: center;
+}
+
+.menu-top {
+    display: flex;
+    height: auto;   /*remove this later*/
+    border-bottom: 5px solid darkred;
+}
+.body-left {
+    flex-grow: 1;
+}
+.body-right {
+    flex-grow: 3;
+}
+
+.menu-section {
+    font-size: 40px;
+    margin: 20px 0;
+}
+.menu-item {
+    margin: 10px 0 0 20px;
+}
+.item-description {
+    margin: 0 0 20px 20px;
+    font-style: italic;
+}
+
+.best {
+    margin: -5px 0 10px 40px;
+}
+
+.last-item-description {
+    margin: 0 0 20px 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.foodimage1 {
+    margin-left: 175px;
+    margin-top: 30px;
+}
+
+.foodimage2 {
+    margin-top: 50px;
+    margin-left: 175px;
+}
+
+.foodimage3 {
+    margin-top: 70px;
+    margin-left: 175px;
+}
+
+.foodimage4 {
+    margin-top: 240px;
+    margin-left: 150px;
+}
+
+.foodlabel {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-bottom {
+    display: flex;
+   /*THIS IS WHERE THE CHANGE IS NEEDED */
+}
+
+.kids {
+    flex-grow: 3;
+    border-right: 2px solid darkred;
+}
+
+.sides {
+    flex-grow: 2;
+    border-left: 2px solid darkred;
+    height: 300px;
+}
+.bottom-menu-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.small-menu-info {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.small-menu-items > li {
+    font-size: 25px;
+    float: left;
+    width: 10em;
+    margin-bottom: -2px;
+}
