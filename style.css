@@ -49,6 +49,7 @@ html, body {
     width: 100%;
     padding: 20px 0 20px 0;
 }
+
 .nav > a {
     padding: 10px 30px 10px 30px;
     background-color: darkred;
@@ -76,8 +77,28 @@ html, body {
     border-bottom: 2px solid darkgoldenrod;
 }
 
-/*End of heading for every page. More breaks will be made to show other pages.*/
-                            /*HOME PAGE CONTENT*/
+.footertext {
+    text-align: left;
+    margin: 0 0 0 5px;
+    padding-top: 14px;
+    font-size: 10px;
+    color: antiquewhite;
+}
+
+.site-link {
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.footerarea {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*End of header and foote for every page. More breaks will be made to show other pages.*/
+
+
+                                     /*HOME PAGE CONTENT*/
 .trending {
     text-align: center;
     font-style: italic;
@@ -158,11 +179,6 @@ html, body {
     margin-left: 165px;
 }
 
-.footerarea {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 .sectionbar3 {
     background-color: darkred;
     width: 100%;
@@ -172,18 +188,7 @@ html, body {
     border-bottom: 2px solid darkgoldenrod;
 }
 
-.footertext {
-    text-align: left;
-    margin: 0;
-    padding-top: 14px;
-    font-size: 10px;
-    color: antiquewhite;
-}
 
-.site-link {
-    color: antiquewhite;
-    font-style: italic;
-}
                                             /*MENU PAGE*/
 
 .menu-header {
@@ -205,12 +210,13 @@ html, body {
 
 .menu-top {
     display: flex;
-    height: auto;   /*remove this later*/
     border-bottom: 5px solid darkred;
 }
+
 .body-left {
     flex-grow: 1;
 }
+
 .body-right {
     flex-grow: 3;
 }
@@ -222,6 +228,7 @@ html, body {
 .menu-item {
     margin: 10px 0 0 20px;
 }
+
 .item-description {
     margin: 0 0 20px 20px;
     font-style: italic;
@@ -265,11 +272,10 @@ html, body {
 
 .menu-bottom {
     display: flex;
-   /*THIS IS WHERE THE CHANGE IS NEEDED */
 }
 
 .kids {
-    flex-grow: 3;
+    flex-grow: 1;
     border-right: 2px solid darkred;
 }
 
@@ -295,3 +301,58 @@ html, body {
     width: 10em;
     margin-bottom: -2px;
 }
+
+                                /*ABOUT PAGE*/
+
+.about-p {
+    font-style: italic;
+}
+
+                                /*CONTACT PAGE*/
+
+.contact-head {
+    border-bottom: 2px solid darkred;
+    margin-bottom: 4px;
+}
+
+.contact-body {
+    display: flex;
+}
+
+.right-input {
+    flex-grow: 2;
+}
+
+.left-input {
+    flex-grow: 1;
+}
+
+.input1 {
+    display: block;
+    width: 400px;
+    font-size: 1em;
+}
+
+.input2 {
+    width: 400px;
+    height: 150px;
+    font-size: 1em;
+}
+
+.submit {
+    display: block;
+    font-size: 1em;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 4px;
+}
+
+.relative-logo {
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+                                    /*EVENTS*/
+
+
