@@ -19,7 +19,7 @@ html, body {
     margin: 0 auto;
 }
 
-.headerbackground {
+.header-background {
     background-color: white;
     height: 350px;
 }
@@ -211,6 +211,7 @@ html, body {
 .menu-top {
     display: flex;
     border-bottom: 5px solid darkred;
+    border-top: 5px solid darkred;
 }
 
 .body-left {
@@ -317,6 +318,7 @@ html, body {
 
 .contact-body {
     display: flex;
+    height: auto;
 }
 
 .right-input {
@@ -349,10 +351,18 @@ html, body {
 
 .relative-logo {
     position: relative;
-    left: 50px;
-    top: 10px;
+    left: 55px;
+    top: 20px;
+}
+
+.form:first-child {
+    margin-top: 20px;
 }
 
                                     /*EVENTS*/
 
-
+.event-head {
+    width: 65%;
+    border-bottom: 5px solid darkred;
+    padding-bottom: 4px;
+}
