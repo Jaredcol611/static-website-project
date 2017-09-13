@@ -145,7 +145,7 @@ html, body {
 .sectionbar2 {
     background-color: darkred;
     width: 100%;
-    height: 20px;
+    height: 10px;
     border-top: 2px solid darkgoldenrod;
     border-left: 2px solid darkgoldenrod;
     border-right: 2px solid darkgoldenrod;
@@ -167,13 +167,14 @@ html, body {
 .left-content {
     width: 50%;
     height: 300px;
+    border-right: 5px solid darkred;
 }
 
 .right-content {
     display: flex;
     width: 50%;
     height: 300px;
-    border-left: 10px solid darkred;
+    border-left: 5px solid darkred;
 }
 
 .hours-head {
@@ -234,11 +235,13 @@ html, body {
 .menu-section {
     font-size: 40px;
     margin: 20px 0;
+    text-shadow: 1px 1px 3px black;
 }
 
 .menu-section2 {
     font-size: 40px;
     margin: 15px 0 20px 0;
+    text-shadow: 1px 1px 3px black;
 }
 
 .menu-item {
@@ -310,6 +313,7 @@ html, body {
     text-align: center;
     font-size: 30px;
     margin: 15px;
+    text-shadow: 1px 1px 3px black;
 }
 
 .small-menu-info {
@@ -326,6 +330,13 @@ html, body {
 
                                 /*ABOUT PAGE*/
 
+.about {
+    border-bottom: 4px solid darkred;
+    padding-bottom: 10px;
+    width: 60%;
+    text-shadow: 2px 2px 3px #CCC;
+}
+
 .about-p {
     font-style: italic;
 }
@@ -333,8 +344,12 @@ html, body {
                                 /*CONTACT PAGE*/
 
 .contact-head {
-    border-bottom: 2px solid darkred;
+    border-bottom: 4px solid darkred;
     margin-bottom: 4px;
+}
+
+.contact-heading {
+    text-shadow: 2px 2px 3px #CCC;
 }
 
 .contact-body {
@@ -355,8 +370,9 @@ html, body {
     width: 400px;
     font-size: 1em;
     padding-left: 7px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-bottom: 2px;
+    box-shadow: 1px 1px 2px black;
 }
 
 .input2 {
@@ -365,7 +381,8 @@ html, body {
     font-size: 1em;
     padding-left: 7px;
     margin-bottom: 2px;
-    border-radius: 5px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px black;
 }
 
 .submit {
@@ -374,6 +391,7 @@ html, body {
     width: 150px;
     height: 50px;
     margin-bottom: 6px;
+    box-shadow: 1px 1px 2px black;
 }
 
 .relative-logo {
@@ -393,6 +411,7 @@ html, body {
     border-bottom: 5px solid darkred;
     padding-bottom: 4px;
     font-size: 27px;
+    text-shadow: 2px 2px 3px #CCC;
 }
 
 .event-h3 {
