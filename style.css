@@ -6,9 +6,6 @@ html, body {
     background-color: white;
 }
 
-.container {
-
-}
 .site-container {
     width: 1200px;
     margin: 0 auto;
@@ -38,9 +35,9 @@ html, body {
     flex-basis: 78.5%;
     font-weight: bold;
     font-size: 150px;
-    transform: skew(-15deg,-9deg);
     font-family: sans-serif;
-    text-shadow: 10px 10px #cccccc
+    transform: skew(-15deg,-9deg);
+    text-shadow: 10px 10px #cccccc;
 }
 
 .nav {
@@ -61,11 +58,13 @@ html, body {
     font-family: sans-serif;
     text-transform: uppercase;
     color: antiquewhite;
+    box-shadow: 0 1px 1px black;
 }
 
 .nav > a:hover {
     color: darkred;
     background-color: antiquewhite;
+    box-shadow: 0 2px 2px black;
 
 }
 
@@ -95,7 +94,12 @@ html, body {
     margin: 0 auto;
 }
 
-/*End of header and foote for every page. More breaks will be made to show other pages.*/
+.return {
+    margin-left: 132px;
+    color: antiquewhite;
+}
+
+/*End of header and footer for every page. More breaks will be made to show other pages.*/
 
 
                                      /*HOME PAGE CONTENT*/
@@ -113,24 +117,29 @@ html, body {
 
 }
 
+.pictureholder1 p {
+    text-align: center;
+    font-weight: bold;
+    margin: 3px;
+}
 .picture1 {
     height: 166px;
     width: 303px;
     margin-top: 5px;
-    border: 2px solid black;
+    border: 2px solid darkred;
+    box-shadow: 1px 1px 2px black;
 }
 
 .picture2 {
     height: 214px;
     width: 236px;
     margin-top: 5px;
-    border: 2px solid black;
+    border: 2px solid darkred;
+    box-shadow: 1px 1px 2px black;
 }
 
 .pictext {
-    text-align: center;
-    font-weight: bold;
-    margin: 3px;
+    color: black;
 }
 
 .sectionbar2 {
@@ -226,6 +235,12 @@ html, body {
     font-size: 40px;
     margin: 20px 0;
 }
+
+.menu-section2 {
+    font-size: 40px;
+    margin: 15px 0 20px 0;
+}
+
 .menu-item {
     margin: 10px 0 0 20px;
 }
@@ -240,9 +255,10 @@ html, body {
 }
 
 .last-item-description {
-    margin: 0 0 20px 20px;
+    margin: 0 0 15px 20px;
     font-style: italic;
-    margin-bottom: 40px;
+    border-bottom: 4px solid darkred;
+    padding-bottom: 15px;
 }
 
 .foodimage1 {
@@ -263,6 +279,11 @@ html, body {
 .foodimage4 {
     margin-top: 240px;
     margin-left: 150px;
+}
+
+.img-border {
+    border: 3px solid darkred;
+    box-shadow: 1px 1px 2px black;
 }
 
 .foodlabel {
@@ -333,12 +354,18 @@ html, body {
     display: block;
     width: 400px;
     font-size: 1em;
+    padding-left: 7px;
+    border-radius: 5px;
+    margin-bottom: 2px;
 }
 
 .input2 {
     width: 400px;
     height: 150px;
     font-size: 1em;
+    padding-left: 7px;
+    margin-bottom: 2px;
+    border-radius: 5px;
 }
 
 .submit {
@@ -346,7 +373,7 @@ html, body {
     font-size: 1em;
     width: 150px;
     height: 50px;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .relative-logo {
@@ -365,4 +392,13 @@ html, body {
     width: 65%;
     border-bottom: 5px solid darkred;
     padding-bottom: 4px;
+    font-size: 27px;
+}
+
+.event-h3 {
+    font-size: 25px;
+}
+
+.event-p {
+    font-size: 17px;
 }
